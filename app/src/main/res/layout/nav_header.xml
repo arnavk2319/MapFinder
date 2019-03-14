@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="@dimen/navDrawer_header_height"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/nav_map_app"
+    android:padding="16dp"
+    android:orientation="vertical"
+    android:gravity="bottom"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--<ImageView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--app:srcCompat="@mipmap/ic_launcher"-->
+        <!--android:layout_margin="20dp"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:layout_above="@+id/profileName"-->
+        <!--android:id="@+id/profilePhoto"-->
+        <!--android:layout_marginEnd="16dp"-->
+        <!--android:layout_marginBottom="18dp"-->
+        <!--android:layout_marginRight="16dp" />-->
+
+    <TextView
+        android:id="@+id/profileName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="15sp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="11sp"
+        android:id="@+id/profileEmailID"
+        android:layout_below="@+id/profileName"
+        android:paddingTop="5dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"/>
+
+</RelativeLayout>

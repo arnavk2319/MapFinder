@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/search_place"
+            android:title="Search a location"
+            android:icon="@drawable/ic_place_black_location_24dp"/>
+
+
+        <!--<item android:id="@+id/logout"-->
+            <!--android:title="Logout"-->
+            <!--android:icon="@drawable/ic_person_outline_black_24dp"/>-->
+
+
+        <!--<item-->
+            <!--android:id="@+id/nav_slideshow"-->
+            <!--android:icon="@drawable/ic_launcher_background"-->
+            <!--android:title="Slideshow"/>-->
+
+        <!--<item-->
+            <!--android:id="@+id/nav_tools"-->
+            <!--android:icon="@drawable/ic_launcher_background"-->
+            <!--android:title="Tools"/>-->
+    </group>
+
+
+</menu>

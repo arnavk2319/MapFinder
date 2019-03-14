@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">MapFinder</string>
+    <string name="option_get_place">Get place</string>
+    <string name="pick_place">Choose a place</string>
+    <string name="default_info_title">Default Location</string>
+    <string name="default_info_snippet">No places found, because location permission is disabled.</string>
+    <string name="api_key">AIzaSyCpmMHo0xQs-U_mXlGUOxFOReO0NlKv3CU</string>
+
+    <string name="atm">atm</string>
+    <string name="art_gallery">art_gallery</string>
+    <string name="bakery">bakery</string>
+    <string name="book_store">book_store</string>
+    <string name="bank">bank</string>
+    <string name="bar">bar</string>
+    <string name="gas_station">gas_station</string>
+    <string name="hospital">hospital</string>
+    <string name="gym">gym</string>
+    <string name="pharmacy">pharmacy</string>
+    <string name="police">police</string>
+    <string name="restaurant">restaurant</string>
+    <string name="shopping_mall">shopping_mall</string>
+    <string name="grocery_or_supermarket">grocery_or_supermarket</string>
+    <string name="transit_station">transit_station</string>
+    <string name="university">university</string>
+    <string name="facebook_app_id">1028074114069843</string>
+    <string name="fb_login_protocol_scheme">fb1028074114069843</string>
+
+</resources>

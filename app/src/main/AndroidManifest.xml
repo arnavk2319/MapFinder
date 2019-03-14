@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.arnav.akapplications.mapfinder">
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="com.arnav.akapplications.mapfinder.permission.MAPS_RECEIVE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+
+    <application
+        android:name=".AppController"
+        android:allowBackup="true"
+        android:icon="@drawable/app_logo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        <activity android:name=".SearchPlaceActivity"
+            android:launchMode="singleTop"/>
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyCpmMHo0xQs-U_mXlGUOxFOReO0NlKv3CU" />
+        <meta-data
+            android:name="com.google.android.places.API_KEY"
+            android:value="AIzaSyCpmMHo0xQs-U_mXlGUOxFOReO0NlKv3CU" />
+
+
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/AppTheme"
+            android:label="Points of Interest">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <!--<activity-->
+            <!--android:name=".LoginActivity"-->
+            <!--android:theme="@style/AppTheme">-->
+            <!---->
+        <!--</activity>-->
+    </application>
+
+</manifest>
